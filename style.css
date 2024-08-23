@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+::selection{
+    background-color: rgb(7, 176, 237);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -34,10 +38,11 @@ body{
 button{
     background-color: rgb(168, 211, 228);
     padding-top: 7px;
+    transition: all 1s;
 }
 
 button:hover{
-    background-color: rgb(7, 176, 237);
+    background-color: rgb(147, 226, 255);
 }
 
 .container textarea{
